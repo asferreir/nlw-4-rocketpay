@@ -1,7 +1,9 @@
 defmodule Rocketpay do
   alias Rocketpay.Users.Create, as: UserCreate
 
-  alias Rocketpay.Account.{Deposit, Transaction, Withdraw}
+  alias Rocketpay.Accounts.Deposit
+  alias Rocketpay.Accounts.Transaction
+  alias Rocketpay.Accounts.Withdraw
 
   defdelegate create_user(params), to: UserCreate, as: :call
 

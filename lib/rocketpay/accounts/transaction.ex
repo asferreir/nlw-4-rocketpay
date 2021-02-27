@@ -1,8 +1,8 @@
-defmodule Rocketpay.Account.Transaction do
+defmodule Rocketpay.Accounts.Transaction do
   alias Ecto.Multi
 
-  alias Rocketpay.Account.Operation
-  alias Rocketpay.Account.Transaction.Response, as: TransactionResponse
+  alias Rocketpay.Accounts.Operation
+  alias Rocketpay.Accounts.Transactions.Response, as: TransactionResponse
   alias Rocketpay.Repo
 
 

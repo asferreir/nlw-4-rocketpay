@@ -2,7 +2,7 @@ defmodule RocketpayWeb.AccountsController do
   use RocketpayWeb, :controller
 
   alias Rocketpay.Account
-  alias Rocketpay.Account.Transaction.Response, as: TransactionResponse
+  alias Rocketpay.Accounts.Transactions.Response, as: TransactionResponse
 
   action_fallback RocketpayWeb.FallbackController
 

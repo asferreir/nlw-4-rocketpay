@@ -1,6 +1,6 @@
 defmodule RocketpayWeb.AccountsView do
   alias Rocketpay.Account
-  alias Rocketpay.Account.Transaction.Response, as: TransactionResponse
+  alias Rocketpay.Accounts.Transactions.Response, as: TransactionResponse
 
   def render("update.json", %{account: %Account{id: account_id, balance: balance}}) do
     %{
