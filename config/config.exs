@@ -33,3 +33,7 @@ import_config "#{Mix.env()}.exs"
 config :rocketpay, Rocketpay.Repo,
   migration_primary_key: [type: :binary_id],
   migration_foreign_key: [type: :binary_id]
+
+config :rocketpay, :basic_auth,
+  username: "anderson",
+  password: "123456"
